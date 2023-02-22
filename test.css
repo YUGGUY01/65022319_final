@@ -1,0 +1,80 @@
+#box{
+    width: 30%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 168, 228);
+}
+
+#insert{
+    text-align: center;
+    padding:2%;
+    margin-top: 5%;
+}
+#name{
+    text-align: left;
+    margin-left: 5%;
+}
+
+#sname{
+    text-align: left;
+    margin-left: 5%;
+}
+
+#sex{
+    text-align: left;
+    margin-left: 5%;
+}
+
+#bd{
+    text-align: left;
+    margin-left: 5%;
+}
+
+#txtBox{
+    margin-left: 7.5%;
+    padding-top: 1%;
+    width: 80%;
+}
+#txtBox2{
+    margin-left: 7.5%;
+    padding-top: 1%;
+    width: 80%;
+}
+
+#LG{
+    margin-left: 7.5%;
+    padding-top: 1%;
+    width: 80%;
+}
+
+#birthday{
+    margin-left: 7.5%;
+    padding-top: 1%;
+    width: 80%;
+}
+
+#Add{
+    margin-left:12% ;
+    margin-top: 5%;
+    padding-top: 1%;
+    width: 70%;
+    height: 8%;
+    background-color: rgb(162, 177, 211);
+    
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 20px;
+  }

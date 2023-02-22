@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div>
+        <div id="box"> 
+            <h1 id="insert">Insert data</h1>
+            <h4 id="name"><p>ชื่อ</p></h4>
+            <input id="txtBox" type="text" placeholder="" onfocus="Focus(this)" onblur="Blur(this)">
+            
+            <h4 id="sname"><p>นามสกุล</p></h4>
+            <input id="txtBox2" type="text" placeholder="" onfocus="Focus(this)" onblur="Blur(this)">
+            
+            <h4 id="sex"><p>เพศ</p></h4>
+            <label or=""></label>
+            <select name="" id="LG" onchange="SelectedMenu()">
+                <option value="none">ไม่ระบุ</option>
+                <option value="boy">ชาย</option>
+                <option value="girl">หญิง</option>
+            </select>
+
+            <h4 id="bd"><p>วันเกิด</p></h4>
+            <label for="birthday"></label>
+            <input type="date" id="birthday" name="birthday"></p>
+        
+            <p><button id="Add" onclick="disPlayText()">Add</button></p>
+        </div>
+        <p>
+
+        <table>
+            <tr>
+              <th>ชื่อ</th>
+              <th>นามสกุล</th>
+              <th>เพศ</th>
+              <th>วันเกิด</th>
+            </tr>
+          </table>
+          <ul id ="menu"></ul>
+        </p>
+
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
